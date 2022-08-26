@@ -1,0 +1,8 @@
+id,state_id,name,website,service,active,bipoc_focus
+,44,The Lilith Fund,https://www.lilithfund.org/,funding,true ,false
+,44,Tea Fund,https://teafund.org/,funding,false ,false
+,44,West Fund,https://www.westfund.org/,funding,false ,false
+,44,Frontera Fund,https://fronterafundrgv.org/,funding,false ,true
+,44,Support your Sistah,https://abortionfunds.org/fund/support-your-sistah/,transportation and childcare,true ,true
+,44,Buckle Bunnies Fund,https://www.bucklebunnies.org/,funding,true ,false
+,44,The Bridge Collective,https://thebridgecollective.org/,transportation and kits,false ,false
