@@ -21,4 +21,22 @@ RSpec.describe 'States API', type: :request do
       end
     end
   end
+
+  describe 'States#show' do
+    describe 'happy paths' do
+      it 'displays an individual state' do
+        get "/api/v1/states/#{state1.id}"
+
+        expect(response).to be_successful
+
+        json = JSON.parse(response.body, symbolize_names: true)
+        state = json[:data]
+
+        expect(state.keys.count).to eq(3)
+        expect(state.keys[:id]).to eq(state1.id)
+        expect(state.keys[:type]).to eq('state')
+        expect(state[:attributes].keys).to include(:name, :abbreviation, :legal, :legal_description, :source)
+      end
+    end
+  end
 end
