@@ -4,8 +4,10 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get '/resources', to: 'resources#index'
+      get '/misinformation_centers', to: 'misinformation_centers#index'
       resources :states, only: %i[index show] do
         get '/resources', to: 'resources#show'
+        get '/misinformation_centers', to: 'misinformation_centers#show'
       end
     end
   end
