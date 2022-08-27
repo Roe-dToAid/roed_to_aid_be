@@ -1,5 +1,4 @@
 class ResourceSerializer
   include JSONAPI::Serializer
-  attributes :name, :service, :active, :bipoc_focus
-  belongs_to :states
+  attributes :state_id, :name, :website, :service, :active, :bipoc_focus
 end
