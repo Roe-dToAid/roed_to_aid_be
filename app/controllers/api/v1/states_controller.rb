@@ -8,7 +8,7 @@ module Api
       end
 
       def show
-        state = State.find(params[:id])
+        state = State.find_by(abbreviation: params[:id])
         render json: StateSerializer.new(state)
       end
     end
