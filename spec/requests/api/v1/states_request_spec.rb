@@ -3,8 +3,8 @@
 require 'rails_helper'
 
 RSpec.describe 'States API', type: :request do
-  let!(:state1) { State.new(name: "Texas", abbreviation: "TX", legal: 2, legal_description: "lorem ipsum_TX", source: "website_here_TX") }
-  let!(:state2) { State.new(name: "New Mexico", abbreviation: "NM", legal: 0, legal_description: "lorem ipsum_NM", source: "website_here_NM") }
+  let!(:state1) { State.create!(name: "Texas", abbreviation: "TX", legal: 2, legal_description: "lorem ipsum_TX", source: "website_here_TX") }
+  let!(:state2) { State.create!(name: "New Mexico", abbreviation: "NM", legal: 0, legal_description: "lorem ipsum_NM", source: "website_here_NM") }
 
   describe 'States#index' do
     describe 'happy paths' do
@@ -13,10 +13,11 @@ RSpec.describe 'States API', type: :request do
 
         expect(response).to be_successful
 
-        states = response.body[:data]
+        json = JSON.parse(response.body, symbolize_names: true)
+        states = json[:data]
 
-        expect(states.count).to eq(1)
-        expect(states.first[:attributes]).to include(:name, :abbreviation, :legal, :legal_description, :source)
+        expect(states.count).to eq(2)
+        expect(states.first[:attributes].keys).to include(:name, :abbreviation, :legal, :legal_description, :source)
       end
     end
   end
