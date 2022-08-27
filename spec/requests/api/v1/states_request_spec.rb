@@ -25,7 +25,7 @@ RSpec.describe 'States API', type: :request do
   describe 'States#show' do
     describe 'happy paths' do
       it 'displays an individual state' do
-        get "/api/v1/states/#{state1.id}"
+        get "/api/v1/states/TX"
 
         expect(response).to be_successful
 
