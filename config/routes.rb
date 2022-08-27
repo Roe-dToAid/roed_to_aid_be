@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   root to: "welcome#index"
   namespace :api do
     namespace :v1 do
-      resources :states, only: %i[index show]
+      resources :states, only: %i[index show] do 
+        resources :resources, only: %i[index]
+      end
     end
   end
 end
