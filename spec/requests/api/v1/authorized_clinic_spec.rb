@@ -38,7 +38,7 @@ RSpec.describe 'Authorized Clinic Endpoint', type: :request do
         expect(response).to be_successful
 
         clinics = JSON.parse(response.body, symbolize_names: true)
-        # binding.pry
+
         expect(clinics).to be_a(Hash)
         expect(clinics[:data].count).to eq(0)
       end
