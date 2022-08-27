@@ -10,7 +10,12 @@ RSpec.describe 'Resources Endpoint', type: :request do
         get "/api/v1/states/#{state.id}/resources"
 
         expect(response).to be_successful
-        binding.pry
+        
+        resources = JSON.parse(response.body, symbolize_names: true)
+
+        expect(resources).to be_a(Hash)
+        expect(resources[:data].count).to eq(2)
+        expect(resources[:data].first[:attributes].count).to eq(6)
       end
     end
   end
