@@ -33,8 +33,8 @@ RSpec.describe 'States API', type: :request do
         state = json[:data]
 
         expect(state.keys.count).to eq(3)
-        expect(state.keys[:id]).to eq(state1.id)
-        expect(state.keys[:type]).to eq('state')
+        expect(state[:id]).to eq(state1.id.to_s)
+        expect(state[:type]).to eq('state')
         expect(state[:attributes].keys).to include(:name, :abbreviation, :legal, :legal_description, :source)
       end
     end
