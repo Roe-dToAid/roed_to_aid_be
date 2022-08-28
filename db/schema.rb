@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_08_26_212045) do
+ActiveRecord::Schema.define(version: 2022_08_28_072917) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,8 @@ ActiveRecord::Schema.define(version: 2022_08_26_212045) do
     t.string "source"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "city"
+    t.string "zip"
     t.index ["state_id"], name: "index_misinformation_centers_on_state_id"
   end
 
