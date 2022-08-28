@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe 'Resources Endpoint', type: :request do
+  let!(:user) { User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd') }
+  let!(:body) { {api_key: '1b86bdaac6dde78337da1a8618f71bfd'} }
+
   describe 'resources#index' do
     describe 'happy path' do
       it 'displays resources for each state' do
@@ -15,7 +18,7 @@ RSpec.describe 'Resources Endpoint', type: :request do
                                      service: 'transportation', active: false, bipoc_focus: true)
         resource3 = Resource.create!(state_id: state2.id, name: 'blah', website: 'Siteofweb',
                                      service: 'transportation', active: false, bipoc_focus: true)
-        get "/api/v1/states/#{state.abbreviation}/resources"
+        get "/api/v1/states/#{state.abbreviation}/resources", params: body
 
         expect(response).to be_successful
 
@@ -34,7 +37,7 @@ RSpec.describe 'Resources Endpoint', type: :request do
         resource2 = Resource.create!(state_id: state.id, name: 'DriversRUs', website: 'Siteofweb',
                                      service: 'transportation', active: false, bipoc_focus: true)
 
-        get '/api/v1/resources'
+        get '/api/v1/resources', params: body
 
         expect(response).to be_successful
 
