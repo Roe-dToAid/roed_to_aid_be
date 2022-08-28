@@ -3,7 +3,7 @@ class ApplicationController < ActionController::API
 
   def api_key_verification
     user ||= User.find_by(token: params[:api_key])
-    if !user
+    unless user
       error_message = { api_key: ['is invalid'] }
       error_handler(error_message, :unauthorized)
     end
