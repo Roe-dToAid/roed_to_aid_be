@@ -1,16 +1,10 @@
-# frozen_string_literal: true
+class Api::V1::StatesController < ApplicationController
+  def index
+    render json: StateSerializer.new(State.all)
+  end
 
-module Api
-  module V1
-    class StatesController < ApplicationController
-      def index
-        render json: StateSerializer.new(State.all)
-      end
-
-      def show
-        state = State.find_by(abbreviation: params[:id])
-        render json: StateSerializer.new(state)
-      end
-    end
+  def show
+    state = State.find_by(abbreviation: params[:id])
+    render json: StateSerializer.new(state)
   end
 end
