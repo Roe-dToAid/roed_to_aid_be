@@ -1,6 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe 'Misinformation Centers Endpoint', type: :request do
+  let!(:user) { User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd') }
+  let!(:body) { {api_key: '1b86bdaac6dde78337da1a8618f71bfd'} }
+
   describe 'happy path' do
     describe '#index' do
       it 'returns all misinformation centers' do
@@ -25,7 +28,7 @@ RSpec.describe 'Misinformation Centers Endpoint', type: :request do
           }
         )
 
-        get '/api/v1/misinformation_centers'
+        get '/api/v1/misinformation_centers', params: body
 
         expect(response).to be_successful
 
@@ -73,7 +76,7 @@ RSpec.describe 'Misinformation Centers Endpoint', type: :request do
           }
         )
 
-        get '/api/v1/states/TX/misinformation_centers'
+        get '/api/v1/states/TX/misinformation_centers', params: body
 
         expect(response).to be_successful
 

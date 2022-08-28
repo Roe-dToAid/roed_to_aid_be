@@ -27,3 +27,6 @@
 
 # ignore SimpleCov files
 coverage
+
+# ignore Mac system folder settings files
+**/.DS_Store

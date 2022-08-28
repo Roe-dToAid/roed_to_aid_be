@@ -23,3 +23,5 @@ end
 CSV.foreach('db/data/resources.csv', headers: true) do |row|
   Resource.create(row.to_h)
 end
+
+User.create!(email: 'frontend', token: 'ca912ed1df0d1c0f014ec94e3c731881')
