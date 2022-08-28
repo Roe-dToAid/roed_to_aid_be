@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  # before_action :api_key_verification
+  before_action :api_key_verification
 
   def api_key_verification
     user ||= User.find_by(token: params[:api_key])
