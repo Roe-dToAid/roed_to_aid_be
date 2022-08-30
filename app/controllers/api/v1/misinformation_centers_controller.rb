@@ -5,6 +5,11 @@ class Api::V1::MisinformationCentersController < ApplicationController
 
   def show
     state = State.find_by(abbreviation: params[:state_id])
-    render json: MisinformationCenterSerializer.new(state.misinformation_centers)
+    if state
+      render json: MisinformationCenterSerializer.new(state.misinformation_centers)
+    else
+      error_message = { Abbreviation: ['is invalid'] }
+      error_handler(error_message)
+    end
   end
 end
