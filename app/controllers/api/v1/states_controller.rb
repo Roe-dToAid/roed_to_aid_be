@@ -5,6 +5,11 @@ class Api::V1::StatesController < ApplicationController
 
   def show
     state = State.find_by(abbreviation: params[:id])
-    render json: StateSerializer.new(state)
+    if state
+      render json: StateSerializer.new(state)
+    else
+      error_message = { Abbreviation: ['is invalid'] }
+      error_handler(error_message)
+    end
   end
 end

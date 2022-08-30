@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Misinformation Centers Endpoint', type: :request do
   let!(:user) { User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd') }
-  let!(:body) { {api_key: '1b86bdaac6dde78337da1a8618f71bfd'} }
+  let!(:body) { { api_key: '1b86bdaac6dde78337da1a8618f71bfd' } }
 
   describe 'happy path' do
     describe '#index' do
@@ -87,6 +87,21 @@ RSpec.describe 'Misinformation Centers Endpoint', type: :request do
         expect(centers[:data].first[:attributes]).to have_key(:name)
         expect(centers[:data].first[:attributes]).to have_key(:address)
         expect(centers[:data].first[:attributes]).to have_key(:source)
+      end
+    end
+  end
+  describe 'sad path' do
+    describe '#show' do
+      it 'returns a proper error message if abbreviation is invalid' do
+        get '/api/v1/states/not_real/misinformation_centers', params: body
+
+        expect(response).to_not be_successful
+
+        centers = JSON.parse(response.body, symbolize_names: true)
+
+        error_message = { data: { id: nil, type: 'error', message: 'Abbreviation is invalid' } }
+
+        expect(centers).to eq(error_message)
       end
     end
   end
