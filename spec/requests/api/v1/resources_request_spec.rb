@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Resources Endpoint', type: :request do
   let!(:user) { User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd') }
-  let!(:body) { {api_key: '1b86bdaac6dde78337da1a8618f71bfd'} }
+  let!(:body) { { api_key: '1b86bdaac6dde78337da1a8618f71bfd' } }
 
   describe 'resources#index' do
     describe 'happy path' do
@@ -46,6 +46,22 @@ RSpec.describe 'Resources Endpoint', type: :request do
         expect(resources).to be_a(Hash)
         expect(resources[:data].count).to eq(2)
         expect(resources[:data].first[:attributes].count).to eq(6)
+      end
+    end
+  end
+
+  describe 'sad path' do
+    describe '#show' do
+      it 'returns a proper error message if abbreviation is invalid' do
+        get '/api/v1/states/not_real/resources', params: body
+
+        expect(response).to_not be_successful
+
+        centers = JSON.parse(response.body, symbolize_names: true)
+
+        error_message = { data: { id: nil, type: 'error', message: 'Abbreviation is invalid' } }
+
+        expect(centers).to eq(error_message)
       end
     end
   end
