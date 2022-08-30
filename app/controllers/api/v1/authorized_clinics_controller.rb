@@ -5,6 +5,11 @@ class Api::V1::AuthorizedClinicsController < ApplicationController
 
   def show
     state = State.find_by(abbreviation: params[:state_id])
-    render json: AuthorizedClinicSerializer.new(state.authorized_clinics)
+    if state
+      render json: AuthorizedClinicSerializer.new(state.authorized_clinics)
+    else
+      error_message = { Abbreviation: ['is invalid'] }
+      error_handler(error_message)
+    end
   end
 end
