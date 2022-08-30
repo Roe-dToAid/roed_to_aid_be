@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::API
   before_action :api_key_verification
 
+  protect_from_forgery with: :null_session
+
   def api_key_verification
     user ||= User.find_by(token: params[:api_key])
     unless user
