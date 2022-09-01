@@ -12,10 +12,21 @@ RSpec.describe 'GraphQL State Queries', type: :request do
         user = User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd')
         body = { api_key: '1b86bdaac6dde78337da1a8618f71bfd' }
 
-        post '/graphql?api_key=1b86bdaac6dde78337da1a8618f71bfd', params: { query: states{ name } }
-        binding.pry
+        post '/graphql?api_key=1b86bdaac6dde78337da1a8618f71bfd', params: { query: states }
+
         expect(response).to be_successful
       end
     end
   end
+
+  def states
+    <<~GQL
+      query {
+        states {
+          name
+        }
+      }
+    GQL
+  end
 end
+
