@@ -24,7 +24,7 @@ RSpec.describe 'GraphQL State Queries', type: :request do
           'name' => be_present,
           'abbreviation' => be_present,
           'legal' => be_present,
-          # 'legal_description' => be_present,
+          'legalDescription' => be_present,
           'source' => be_present,
         )
 
@@ -40,6 +40,7 @@ RSpec.describe 'GraphQL State Queries', type: :request do
           name
           abbreviation
           legal
+          legalDescription
           source
         }
       }
