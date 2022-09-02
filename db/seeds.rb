@@ -9,7 +9,16 @@
 require 'csv'
 
 CSV.foreach('db/data/states.csv', headers: true) do |row|
-  State.create(row.to_h)
+  hash = row.to_h
+  legal = hash['legal']
+  if legal == '0'
+    hash['legal'] = 'legal'
+  elsif legal == '1'
+    hash['legal'] = 'at risk'
+  elsif legal == '2'
+    hash['legal'] = 'illegal'
+  end
+  State.create(hash)
 end
 
 CSV.foreach('db/data/misinformation_centers.csv', headers: true) do |row|
