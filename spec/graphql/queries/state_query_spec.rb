@@ -15,6 +15,19 @@ RSpec.describe 'GraphQL State Queries', type: :request do
         post '/graphql?api_key=1b86bdaac6dde78337da1a8618f71bfd', params: { query: states }
 
         expect(response).to be_successful
+        json = JSON.parse(response.body)
+        states = json['data']['states']
+
+        expect(json).to be_a(Hash)
+        expect(states).to include(
+          'name' => be_present,
+          # 'abbreviation' => be_present,
+          # 'legal' => be_present,
+          # 'legal_description' => be_present,
+          # 'source' => be_present,
+        )
+
+        # binding.pry
       end
     end
   end
@@ -24,6 +37,10 @@ RSpec.describe 'GraphQL State Queries', type: :request do
       query {
         states {
           name
+          abbreviation
+          legal
+          legal_description
+          source
         }
       }
     GQL
