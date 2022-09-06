@@ -7,7 +7,7 @@ Visit our Front End Site!
 Our Back End is hosted here and requires an API key to access (we are not giving any API keys out at this time):
 - [Roe'd To Aid API](https://roed-to-aide-be.herokuapp.com/)
 
-
+<br></br>
 ## Built With:
 - ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) **2.7.4**
 - ![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) **5.2.8.1**
@@ -16,9 +16,7 @@ Our Back End is hosted here and requires an API key to access (we are not giving
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 - ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 
-
-
-
+<br></br>
 ## Setup
 If you'd like to demo this API on your local machine:
 1. Ensure that you have the prerequisites or equivalent
@@ -31,13 +29,12 @@ If you'd like to demo this API on your local machine:
 You should now be able to hit the API endpoints using Postman or a similar tool.<br>
 Default host is `http://localhost:3000`
 
-
+<br></br>
 ## Database Schema
 ![Database Schema Image](/images/roed_to_aid_database_schema.png "Database Schema Image")
 
-
+<br></br>
 ## Endpoints
-
 ### RESTful
 https://roed-to-aide-be.herokuapp.com/api/v1<br>
 Documentation on Restful endpoints can be found here:
@@ -49,15 +46,95 @@ The GraphQL endpoints supply information based on all states or an individual st
 The API key should be sent in the params of the request as shown in the examples and the query should be sent in the body. Below are some examples of queries that can be used.
 - All States
   - POST https://roed-to-aide-be.herokuapp.com/graphql?api_key=API_KEY_HERE
-  - ```graphql
-    Example goes here
+  - ```
+    query {
+      states {
+        id
+        name
+        abbreviation
+        legal
+        legalDescription
+        source
+        authorizedClinics {
+          id
+          stateId
+          name
+          address
+          city
+          zip
+          phone
+          services
+          website
+          source
+        }
+        misinformationCenters {
+          id
+          stateId
+          name
+          address
+          city
+          zip
+          source
+        }
+        resources {
+          id
+          stateId
+          name
+          website
+          service
+          active
+          bipocFocus
+        }
+      }
+    }
     ```
 - Single State
+  - Very similar to all states, except here you need to specify which state to pull information for on the second line. Everything else should remain the same for this query.
   - POST https://roed-to-aide-be.herokuapp.com/graphql?api_key=API_KEY_HERE
-  - ```graphql
-    Example goes here
+  - ```
+    query {
+      state(abbreviation: "NM") {
+        id
+        name
+        abbreviation
+        legal
+        legalDescription
+        source
+        authorizedClinics {
+          id
+          stateId
+          name
+          address
+          city
+          zip
+          phone
+          services
+          website
+          source
+        }
+        misinformationCenters {
+          id
+          stateId
+          name
+          address
+          city
+          zip
+          source
+        }
+        resources {
+          id
+          stateId
+          name
+          website
+          service
+          active
+          bipocFocus
+        }
+      }
+    }
     ```
 
+<br></br>
 ## Contributors
 ### Back End Team
 <table>
@@ -121,7 +198,6 @@ The API key should be sent in the params of the request as shown in the examples
     </td>
   </tr>
 </table>
-
 
 ### Instructor/Project Manager
 Mike Dao
