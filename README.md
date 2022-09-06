@@ -9,9 +9,14 @@ Our Back End is hosted here and requires an API key to access (we are not giving
 
 
 ## Built With:
-- Ruby 2.7.4
-- Rails 5.2.8.1
-- RSpec 3.11
+- ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) **2.7.4**
+- ![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) **5.2.8.1**
+- <img src="images/rspec_badge.png" alt="RSpec" height="30"> **3.11**
+- ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+- ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+- ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
+
 
 
 ## Setup
@@ -34,11 +39,24 @@ Default host is `http://localhost:3000`
 ## Endpoints
 
 ### RESTful
+https://roed-to-aide-be.herokuapp.com/api/v1<br>
 Documentation on Restful endpoints can be found here:
 [Roed to Aid API Documentation on SwaggerHub](https://app.swaggerhub.com/apis/roed-to-aid/roed-to-aid/1.0.0)
 
 ### GraphQL
-Here is where GraphQl stuff goes
+https://roed-to-aide-be.herokuapp.com/graphql<br>
+The GraphQL endpoints supply information based on all states or an individual state. An individual state's information can be looked up using the state's two letter abbreviation.(e.g. Texas = TX, New Mexico = NM, Indiana = IN, Wasington DC = DC, United States = US, etc.)<br>
+The API key should be sent in the params of the request as shown in the examples and the query should be sent in the body. Below are some examples of queries that can be used.
+- All States
+  - POST https://roed-to-aide-be.herokuapp.com/graphql?api_key=API_KEY_HERE
+  - ```graphql
+    Example goes here
+    ```
+- Single State
+  - POST https://roed-to-aide-be.herokuapp.com/graphql?api_key=API_KEY_HERE
+  - ```graphql
+    Example goes here
+    ```
 
 ## Contributors
 ### Back End Team
