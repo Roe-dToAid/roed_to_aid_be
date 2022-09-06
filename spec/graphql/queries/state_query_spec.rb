@@ -77,6 +77,27 @@ RSpec.describe 'GraphQL State Queries', type: :request do
 
         expect(json).to eq({ 'data' => { 'state' => nil } })
       end
+
+      it 'returns error message if field does not exist' do
+        state = State.create!(name: 'Texas', abbreviation: 'TX', legal: 2, legal_description: 'banned as heck',
+                              source: 'website')
+
+        clinic1 = AuthorizedClinic.create!(state_id: state.id, name: 'Planned Parenthood',
+                                           address: 'its sad because there actually arent any clinics in TX', city: 'Houston', zip: 87_108, phone: '5555555555', services: 'pill, clinic', website: 'a super cool webpage', source: 'abortionfinder.org')
+        clinic2 = AuthorizedClinic.create!(state_id: state.id, name: 'Fake Clinic', address: '123 Seaside Ln',
+                                           city: 'Atlantis', zip: 87_345, phone: '4556439900', services: 'clinic', website: 'another super cool webpage', source: 'abortionfinder.org')
+
+        user = User.create!(email: 'test user', token: '1b86bdaac6dde78337da1a8618f71bfd')
+
+        post '/graphql?api_key=1b86bdaac6dde78337da1a8618f71bfd',
+             params: { query: not_state_field(abbreviation: 'TX') }
+
+        expect(response).to be_successful
+
+        json = JSON.parse(response.body)
+
+        expect(json['errors'].first['message']).to eq("Field 'frank' doesn't exist on type 'State'")
+      end
     end
   end
   def states
@@ -98,6 +119,20 @@ RSpec.describe 'GraphQL State Queries', type: :request do
       query {
         state(abbreviation: "#{abbreviation}") {
           name
+          abbreviation
+          legal
+          legalDescription
+          source
+        }
+      }
+    GQL
+  end
+
+  def not_state_field(abbreviation:)
+    <<~GQL
+      query {
+        state(abbreviation: "#{abbreviation}") {
+          frank
           abbreviation
           legal
           legalDescription
