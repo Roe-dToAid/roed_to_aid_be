@@ -1,4 +1,11 @@
-# Roe'd To Aid API
+<center>
+  <h1>Roe'd To Aid API</h1>
+  <img src="images/roed_logo_sm.png" alt_text="Roed to Aid Logo"><br>
+</center>
+
+<br></br>
+(Want to hire the devs that worked on this project? Click [this link](#contributors) to jump to our project contributors!)
+
 This repo is the Back End part of a project built by students at [Turing School of Software and Design](https://turing.edu/). The project itself is an original web app designed by combined Front End and Back End teams and its purpose is to help individuals seeking information on abortions in their state and help with identifying misinformation sites.
 
 Visit our Front End Site!
@@ -165,7 +172,7 @@ The API key should be sent in the params of the request as shown in the examples
 </table>
 
 
-### Front-end Team
+### Front End Team
 <table>
   <tr>
     <td><img src="https://avatars.githubusercontent.com/u/98493391?s=120&v=4"></td>
