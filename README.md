@@ -1,7 +1,7 @@
-<center>
+<div align="center">
   <h1>Roe'd To Aid API</h1>
   <img src="images/roed_logo_sm.png" alt_text="Roed to Aid Logo"><br>
-</center>
+</div>
 
 <br></br>
 (Want to hire the devs that worked on this project? Click [this link](#contributors) to jump to our project contributors!)
