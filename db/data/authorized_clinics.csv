@@ -1,21 +1,400 @@
 id,state_id,name,address,city,zip,phone,services,website,source
+,2,Anchorage Health Center,4001 Lake Otis Parkway #101,Anchorage,99508,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,2,Fairbanks Health Center,"1867 Airport Way, Suite 160B",Fairbanks,99701,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,2,Juneau Health Center,3231 Glacier Hwy.,Juneau,99801,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Dorothy Hecht Health Center,8520 So. Broadway,Los Angeles,90003,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Koreatown Health center,"3224 W. Olympic Blvd, Suite 101",Koreatown,90006,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,S. Mark Taper Foundation Center for Medical Training,400 West 30th Street,Los Angeles,90007,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,East Los Angeles Health Center,5068 Whittier Blvd.,Los Angeles,90022,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Hollywood Health Center,1014 1/2 N Vermont Ave,Los Angeles,90029,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Bixby Health Center,1057 Kingston Avenue,Los Angeles,90033,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Highland Park Health Center,5903 N. Figueroa Street,Los Angeles,90042,(626) 798-706,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,West Hollywood Health Center,869 Westbourne Dr.,West Hollywood,90069,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Compton Health Center,4402 East Compton Blvd Suite #104,Compton,90221,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,South Bay Health Center,14623 Hawthorne Blvd. #300,Lawndale,90260,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Santa Monica Health Center,1316 3rd Street Promenade #201,Santa Monica,90401,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Judith and Steaven Jones Health Center,7655 Greenleaf Ave,Whittier,90602,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Lakewood Health Center,5525 E Del Amo Blvd.,Lakewood,90713,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Carson Health Center,661 East University Drive,Carson,90746,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Long Beach Health Center,"2690 Pacific Avenue, Ste. 370",Long Beach,90806,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Pasadena Health Center,1045 N. Lake Ave.,Pasadena,91104,(626) 798-706,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Canoga Park Health Center,21001 Sherman Way #9,Canoga Park,91303,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Thousand Oaks Center,1200 W Hillcrest,Thousand Oaks,91320,(888) 898-3806,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Van Nuys Health Center,7100 Van Nuys Blvd. #108,Van Nuys,91405,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Burbank Health Center,916 W Burbank Blvd. #M,Burbank,91506,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Baldwin Park Center,4070 Sterling Way,Baldwin Park,91706,(626) 798-706,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,El Monte Health Center,"4786 N. Peck Road, Ste. B",El Monte,91732,(800) 576-5544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Glendora Health Center,130 W Route 66 Suite 100,Glendora,91740,(626) 798-706,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Pomona Health Center,1550 N Garey Avenue,Pomona,91767,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Upland Health Center,"918 W. Foothill Blvd., #A",Upland,91786,(909) 890-5511,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Alhambra Health Center,"330 S. Garfield Avenue, 3rd Fl. - Suite 300",Alhambra,91801,(626) 798-706,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Chula Vista Health Center,1295 Broadway #201,Chula Vista,91911,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,El Cajon Health Center,1685 E. Main Street #301,El Cajon,92021,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Escondido Health Center,347 W. Mission Avenue,Escondido,92025,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Vista Isabella Health Center,1964 Via Centre,Vista,92081,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,First Avenue Family Planning Michelle Wagner Center,2017 First Avenue Suite 301,San Diego,92101,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,First Avenue Specialty Services Michelle Wagner Center,2017 First Avenue Suite 100,San Diego,92101,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,City Heights Health Center,"4305 University Avenue, #350",San Diego,92105,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Mission Bay Mimi Brien Center,4501 Mission Bay Drive #1C&D,San Diego,92109,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Kearny Mesa Joan & Irwin Jacobs Center,7035 Convoy Ct.,San Diego,92111,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Euclid Avenue Francis Torbert Center,"220 Euclid Ave, Suite 30",San Diego,92114,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,College Avenue Sarah Weddington Center,4575 College Ave,San Diego,92115,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Mira Mesa Health Center,10717 Camino Ruiz Suite #258,San Diego,92126,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Coachella Health Center,49-111 California 111 #6A,Coachella,92236,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Imperial Valley Health Center,1463 South 4th Street,El Centro,92243,(760) 594-9100,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Rancho Mirage Health Center,"71777 San Jacinto Drive, Suite 202",Rancho Mirage,92270,(888) 743-7526,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Victorville Health Center,15403 Park Ave. E.,Victorville,92392,(909) 890-5511,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Bernardino Health Center,1873 S. Commercenter Dr. W.,San Bernardino,92408,(909) 890-5511,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Riverside Flaster Family Health Center,3772 Tibbetts,Riverside,92506,(888) 743-7526,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Planned Parenthood Hemet Health Center,1780 E. Florida Ave,Hemet,92544,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Moreno Valley Health Center,"12900 Frederick Street, Suite C",Moreno Valley,92553,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Costa Mesa Health Center,1520 Nutmeg Place Suite 101,Costa Mesa,92626,(714) 922-4100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Westminster Health Center,14372 Beach Blvd.,Westminster,92683,(714) 922-4100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Mission Viejo Health Center,"26137 La Paz Rd., #200",Mission Viejo,92691,(714) 922-4100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Santa Ana Health Center,1421 E. 17th St.,Santa Ana,92705,(714) 922-4100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Anaheim Health Center,"303 W. Lincoln Ave., #105",Anaheim,92805,(714) 922-4100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Orange Health Center,700 S. Tustin St.,Orange,92866,(714) 922-4100,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Corona Health Center,2079 Compton Avenue Suite #104,Corona,92881,(888) 743-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Ventura Center,5400 Ralston Street,Ventura,93003,(888) 898-3806,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Santa Barbara Center,518 Garden Street,Santa Barbara,93101,(888) 898-3806,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Visalia Health Center,211 N. Stevenson Street,Visalia,93291,(877) 855-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Bakersfield Health Center,2633 16th Street,Bakersfield,93301,(661) 634-1000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Luis Obispo Center,743 Pismo Street,San Luis Obispo,93401,(888) 898-3806,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Santa Maria Center,415 E Chapel Street,Santa Maria,93454,(888) 898-3806,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Antelope Valley Health Center,"533 E. Palmdale Boulevard, Ste. 533-A1",Palmdale,93550,(800) 576-5544,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Madera Health Center,500 E. Almond Suite #1,Madera,93637,(559) 675-1133,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Family First Health Center,6095 N. 1st Street,Fresno,93710,(559) 446-1515,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Fulton Street Health Center,650 N. Fulton Street,Fresno,93728,(559) 488-4900,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Salinas Health Center,316 N. Main Street,Salinas,93901,(831) 758-8261,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Seaside Health Center,625 Hilby Ave.,Seaside,93955,(831) 394-1691,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Mountain View Health Center,2500 California Street,Mountain View,94040,(650) 948-807,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Redwood City Health Center,2907 El Camino Real,Redwood City,94061,(650) 503-7810,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,South San Francisco Health Center,435 Grand Avenue,South San Francisco,94080,(877) 855-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Francisco Health Center,1522 Bush Street,San Francisco,94109,(415) 821-1282,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Mateo Health Center,29 Baywood Ave,San Mateo,94402,(650) 235-7940,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Antioch Health Center,1104 Buchanan Road #C10,Antioch,94509,(925) 754-4550,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Concord Health Center,2185 Pacheco Street,Concord,94520,(925) 676-300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,El Cerrito Health Center,320 El Cerrito Plaza,El Cerrito,94530,(510) 527-5806,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Fairfield Health Center,1325 Travis Blvd. #C,Fairfield,94533,(707) 429-8855,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Hayward Health Center,1032 A Street,Hayward,94541,(510) 300-3800,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Napa Health Center,1735 Jefferson Street,Napa,94559,(707) 252-8050,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Ramon Health Center,"200 Porter Drive, Suite 200",San Ramon,94583,(925) 838-2108,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Vallejo Health Center,303 Sacramento Street,Vallejo,94590,(707) 643-4545,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Walnut Creek Health Center,1357 Oakland Blvd.,Walnut Creek,94596,(925) 935-3010,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,East Oakland / Coliseum Health Center,8480 Enterprise Way,Oakland,94621,(510) 746-4700,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Hilltop-Richmond Health Center,2970 Hilltop Mall Road #307,Richmond,94806,(510) 222-5290,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Rafael Health Center,2 H Street,San Rafael,94901,(415) 459-4907,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Gilroy Health Center,760 Renz Lane,Gilroy,95020,(408) 847-1739,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Westside Health Center,1119 Pacific Ave. Suite 200,Santa Cruz,95060,(831) 426-5550,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Watsonville Health Center,398 South Green Valley Road,Watsonville,95076,(831) 724-7525,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Blossom Hill Health Center,5440 Thornwood Drive Suite G,San Jose,95123,(408) 281-9777,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,San Jose Central Health Center,1691 The Alameda,San Jose,95126,(408) 287-7526,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Eastside Health Center,3131 Alum Rock Avenue,San Jose,95127,(408) 729-7600,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Eastland Plaza Health Center,678 N Wilson Way #G,Stockton,95205,(209) 466-2081,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,North Stockton Health Center,4555 Precissi Lane,Stockton,95207,(209) 477-4103,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Manteca Health Center,965 E. Yosemite Avenue Suite #2,Manteca,95336,(209) 239-2528,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Merced Health Center,3166 Collins Dr.,Merced,95348,(209) 723-7751,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Modesto Health Center,"1431 McHenry Avenue, Suite 100",Modesto,95350,(209) 579-2300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Tracy Health Center,1441 N. Tracy Blvd.,Tracy,95376,(209) 835-8910,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Santa Rosa Health Center,1140 Sonoma Avenue Building 3,Santa Rosa,95405,(707) 527-7656,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Clearlake Health Center,14671 Olympic Drive,Clearlake,95422,(707) 995-2261,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Ukiah Health Center,242-A Hospital Drive,Ukiah,95482,(707) 462-4303,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Eureka Health Center,3225 Timber Fall Court Suite B,Eureka,95503,(707) 442-5700,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,North Highlands Health Center,5700 Watt Ave.,North Highlands,95660,(916) 332-5715,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Roseville Health Center,729 Sunrise Ave. Suite 900,Roseville,95661,(916) 781-3310,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Woodland Health Center,520 Cottonwood Street Suite 10,Woodland,95695,(530) 662-4646,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Capitol Plaza Health Center,1125 10th Street,Sacramento,95814,(916) 444-7966,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,B Street Health Center,"201 29th Street, Ste. B",Sacramento,95816,(916) 446-6921,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Fruitridge Health Center,"5385 Franklin Blvd., Suite A-D",Sacramento,95820,(916) 452-7305,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Chico Health Center,3100 Cohasset Rd.,Chico,95973,(530) 342-8367,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Yuba City Health Center,430 Palora Ave. #G,Yuba City,95991,(530) 674-2603,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,5,Redding Health Center,2935 Bechelli Lane Suite A & C,Redding,96002,(530) 351-7100,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Arvada,7735 Wadsworth Boulevard #D,Arvada,80003,(303) 425-6624,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Aurora,1284 S. Abilene St,Aurora,80012,(303) 671-7526,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Littleton,131 W County Line Rd,Littleton,80129,(303) 798-963,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Park Hill,7155 E 38th Ave,Denver,80207,(303) 321-2458,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Boulder,"2525 Arapahoe Ave, Suite C-200",Boulder,80302,(303) 447-1040,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Fort Collins,825 South Shields St,Fort Collins,80521,(970) 493-281,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Greeley,3487B W 10th Street,Greeley,80634,(970) 352-4762,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Colorado Springs Westside,3480 Centennial Blvd.,Colorado Springs,80907,(719) 475-7162,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Durango,46 Suttle St,Durango,81303,(970) 247-3002,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Cortez,20 West North Street,Cortez,81321,(970) 565-7011,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,6,Glenwood Springs,50923 Hwy 6 & 24,Glenwood Springs,81601,(970) 945-8631,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Manchester Center,319B Main Street,Manchester,06040,(860) 643-1607,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Enfield Center,111 Hazard Ave.,Enfield,06082,(860) 741-2197,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,West Hartford Center,1030 New Britain Ave,West Hartford,06110,(860) 953-6201,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Hartford North Center,1229 Albany Avenue,Hartford,06112,(860) 728-203,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Willimantic Center,1548 W Main Street,Willimantic,06226,(860) 423-8426,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,New London Center,45 Franklin Street,New London,06320,(860) 443-5820,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Norwich Center,12 Case Street,Norwich,06360,(860) 889-5211,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Meriden Center,26 Women's Way,Meriden,06451,(203) 238-542,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,New Haven Center,345 Whitney Ave,New Haven,06511,(203) 503-450,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Bridgeport Center,4697 Main Street,Bridgeport,06606,(203) 366-664,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Waterbury Center,617 Watertown Avenue,Waterbury,06708,(203) 753-2119,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Torrington Center,249 Winsted Road,Torrington,06790,(860) 489-5500,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Danbury Center,44 Main Street,Danbury,06810,(203) 743-2446,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,7,Stamford Center,35 Sixth Street,Stamford,06902,(203) 327-2722,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,8,Dover Center,805 S Governors Ave,Dover,19901,(302) 678-5200,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,8,Seaford Center,800 Health Services Drive,Seaford,19973,(302) 643-2857,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Jacksonville Health Center,5978 Powers Avenue,Jacksonville,32217,(904) 399-2800,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Tallahassee Health Center,2618 W Tennessee Street,Tallahassee,32304,(850) 574-7455,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,East Orlando Health Center,11500 University Blvd Suite B,Orlando,32817,(407) 246-1788,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Pembroke Pines Health Center,263 North University Drive,Pembroke Pines,33024,(954) 989-5747,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Golden Glades-Miami Health Center,585 N.W. 161 St. Suites 200-300,Miami,33169,(305) 830-4111,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Kendall Health Center,8900 SW 117th Avenue Unit 207-B,Miami,33186,(786) 263-1,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Florida Mango Health Center,2300 N Florida Mango Road,West Palm Beach,33409,(561) 296-4919,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Boca Raton Health Center,8177 Glades Rd. Bay 25,Boca Raton,33434,(561) 226-4116,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,North Tampa Health Center,236 E. Bearss Avenue,Tampa,33613,(813) 443-9694,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Fort Myers Health Center,6418 Commerce Park Drive,Fort Myers,33966,(239) 481-9999,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Sarasota Health Center,736 Central Avenue,Sarasota,34236,(941) 953-4060,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Kissimmee Health Center,610 Oak Commons Blvd.,Kissimmee,34741,(407) 246-1788,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,9,Treasure Coast Health Center,1696 SE Hillmoor Dr Unit A,Port Saint Lucie,34952,(772) 692-2023,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,10,Gwinnett Center,798 Lawrenceville Suwanee Road Suite 300,Lawrenceville,30043,(404) 688-9300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,10,Cobb Center,"220 Cobb Parkway North, Suite 500",Marietta,30062,(404) 688-9300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,10,East Atlanta Health Center,440 Moreland Avenue SE SE,Atlanta,30316,(404) 688-9300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,10,Savannah Center,720 East 71st St,Savannah,31405,(912) 351-116,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,11,Kahului Health Center,"140 Hoohana Street, Suite 303 Maui",Kahului,96732,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,11,Honolulu Health Center,839 S Beretania Street,Honolulu,96813,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Waukegan Health Center,1601 N Lewis,Waukegan,60085,(847) 672-2237,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Flossmoor Health Center,19831 Governors Highway,Flossmoor,60422,(708) 960-907,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Orland Park Health Center,14470 S. LaGrange Rd. Suite 101,Orland Park,60462,(708) 349-2227,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Aurora Health Center,3051 E. New York St.,Aurora,60504,(630) 585-500,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Loop Health Center,16 N Wabash Ave 5th Fl,Chicago,60602,(312) 592-6700,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Near North: Elizabeth Cohn Morris Health Center,1200 N LaSalle Street,Chicago,60610,(312) 266-1033,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Roseland Health Center,11250 S Halsted St.,Chicago,60628,(877) 200-7745,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Englewood Health Center,6059 S. Ashland Ave.,Chicago,60636,(773) 434-3700,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Wicker Park Health Center,1152 N Milwaukee Ave,Chicago,60642,(773) 252-2240,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Austin Health Center,5937 W Chicago Ave.,Chicago,60651,(773) 287-2020,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Rogers Park Health Center,5725 North Broadway,Chicago,60660,(773) 942-7193,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Ottawa Health Center,612 Court Street,Ottawa,61350,(815) 433-4111,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Peoria Health Center,2709 N Knoxville Ave,Peoria,61604,(309) 681-350,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Bloomington Health Center,1319 N. Veterans Parkway Suite 3-A,Bloomington,61704,(309) 827-4014,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Champaign Health Center,302 E Stoughton St. Suite #2,Champaign,61820,(217) 359-8022,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Fairview Heights Health Center,317 Salem Place,Fairview Heights,62208,(618) 277-6668,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Decatur Health Center,3021 N Oakland Ave,Decatur,62526,(217) 877-6474,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,13,Springfield Health Center,601 N. Bruns,Springfield,62702,(217) 546-1060,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
 ,14,Women’s Med Indianapolis,1201 North Arlington Avenue,Indianapolis,46219,(317) 353-9371,"pill, clinic",https://www.womensmed.com/,https://www.abortionfinder.org/
 ,14,Clinic for Women,"3607 West 16th Street, Suite B-2",Indianapolis,46222,(317) 955-2641,"pill, clinic",https://www.abortionfinder.org/provider/109304,https://www.abortionfinder.org/
 ,14,Planned Parenthood - Georgetown Health Center,8590 Georgetown Road,Indianapolis,46268,(317) 205-8088,"pill, clinic",https://www.plannedparenthood.org/health-center/indiana/indianapolis/46268/georgetown-health-center-2870-91810,https://www.plannedparenthood.org/abortion-access?
 ,14,Planned Parenthood - Merrillville Health Center,8645 Connecticut Street,Merrillville,46410,(317) 205-8088,"pill, clinic",https://www.plannedparenthood.org/health-center/indiana/merrillville/46410/merrillville-health-center-2923-91810,https://www.plannedparenthood.org/abortion-access?
 ,14,Whole Womans Health of South Bend,3511 Lincoln Way West,South Bend,46628,(574) 232-2070,pill,https://www.wholewomanshealth.com/clinic/south-bend/,https://www.abortionfinder.org/
 ,14,Planned Parenthood - Bloomington Health Center,421 S College Ave,Bloomington,47403,(317) 205-8088,"pill, clinic",https://www.plannedparenthood.org/health-center/indiana/bloomington/47403/bloomington-health-center-2639-91810,https://www.plannedparenthood.org/abortion-access?
-,14,Planned Parenthood - Lafayette Health Center,964 Mezzanine Dr.,Lafayette,47905,(317) 205-8088,pill,https://www.plannedparenthood.org/health-center/indiana/lafayette/47905/lafayette-health-center-2669-91810,https://www.plannedparenthood.org/abortion-access?
+,15,Ames Health Center,2530 Chamberlain Street,Ames,50014,(877) 849-763,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,15,Rosenfield Health Center,1000 E. Army Post Road,Des Moines,50315,(877) 849-782,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,15,Sioux City Health Center,4409 Stone Avenue,Sioux City,51106,(877) 859-586,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,15,Council Bluffs Health Center,1604 2nd Ave,Council Bluffs,51501,(877) 849-771,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,15,Iowa City Health Center,850 Orchard Street,Iowa City,52246,(877) 859-551,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
 ,16,Planned Parenthood - Wyandotte Health Center,6013 Leavenworth Road,Kansas City,66104,(913) 222-2308,"pill, clinic",https://www.plannedparenthood.org/health-center/kansas/kansas-city/66104/wyandotte-health-center-3744-90740,https://www.plannedparenthood.org/abortion-access?
 ,16,Planned Parenthood - Comprehensive Health Center,4401 W 109th Street #100,Overland Park,66211,(913) 345-1400,"pill, clinic",https://www.plannedparenthood.org/health-center/kansas/overland-park/66211/comprehensive-health-center-2594-90741,https://www.plannedparenthood.org/abortion-access?
 ,16,Center for Women’s Health,4840 College Boulevard,Overland Park,662211,(913) 491-6878,"pill, clinic",https://www.hodesnauser.com/,https://www.abortionfinder.org/
 ,16,Planned Parenthood - Wichita Health Center,2226 E Central,Wichita,67214,(316) 263-7575,"pill, clinic",https://www.plannedparenthood.org/health-center/kansas/wichita/67214/wichita-health-center-2876-90741,https://www.plannedparenthood.org/abortion-access?
 ,16,Trust Women Wichita,5107 East Kellogg Drive,Wichita,67218,(316) 260-6934,"pill, clinic",https://trustwomen.org/clinics/wichita/home,https://www.abortionfinder.org/
+,19,Sanford Health Center,"886 Main Street, Ste. 200B",Sanford,04073,(207) 324-9385,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,19,Topsham Health Center,4 Bowdoin Mill Island Suite 101,Topsham,04086,(207) 725-8264,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,19,Portland Health Center,443 Congress Street 2nd Floor,Portland,04101,(207) 797-8881,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Waldorf Health Center,3975 St. Charles Parkway Gateway Plaza E-3 & E-4,Waldorf,20602,(410) 576-1414,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Planned Parenthood Prince George’s County,5001 Silver Hill Road Suite #103,Suitland,20746,(240) 563-1220,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Gaithersburg Center,19650 Clubhouse Road #101,Gaithersburg,20886,(301) 208-1300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Baltimore City Health Center,330 North Howard Street,Baltimore,21201,(410) 576-1414,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Owings Mills Health Center,"1866 Reistertown Road, Suite D Suite D",Pikesville,21208,(410) 576-1414,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Towson Health Center,"8501 LaSalle Road , Suite 309 Suite 309",Towson,21286,(410) 576-1414,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Annapolis Health Center,929 West Street Suite 200,Annapolis,21401,(410) 576-1414,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,"Easton Health Center, MD",8579 Commerce Drive #102,Easton,21601,(410) 576-1414,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,20,Frederick Health Center,170 Thomas Johnson Drive Suite 100,Frederick,21702,(410) 576-1414,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,21,Western Massachusetts Health Center,"3550 Main Street, Suite 201",Springfield,01107,(800) 258-4448,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,21,Central Massachusetts Health Center,470 Pleasant Street,Worcester,01609,(800) 258-4448,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,21,Greater Boston Health Center,1055 Commonwealth Avenue,Boston,02215,(800) 258-4448,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Warren Health Center,29350 Van Dyke Ave.,Warren,48093,(586) 558-101,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Ann Arbor West Health Center,2370 W. Stadium Blvd.,Ann Arbor,48103,(734) 929-9480,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Power Family Health Center,3100 Professional Drive,Ann Arbor,48104,(734) 973-710,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Ferndale Health Center,23338 Woodward Ave.,Ferndale,48220,(248) 399-5900,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Flint Health Center,G-3371 Beecher Road,Flint,48532,(810) 238-3631,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Lansing Health Center,"300 N. Clippert, Ste. 6",Lansing,48912,(517) 351-550,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Kalamazoo Health Center,4201 W Michigan Ave,Kalamazoo,49006,(269) 372-1200,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Jackson Health Center,2009 W. Michigan Ave.,Jackson,49202,(517) 784-1700,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Irwin/Martin Health Center,425 Cherry St. SE,Grand Rapids,49503,(616) 459-3101,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Walker Health Center,1135 E. Eighth St.,Traverse City,49686,(231) 929-1844,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Petoskey Health Center,1003 Spring St.,Petoskey,49770,(231) 347-9692,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,22,Marquette Health Center,1219 N. Third St.,Marquette,49855,(906) 225-5070,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,St. Paul Health Center - Vandalia,671 Vandalia St.,Saint Paul,55114,(651) 698-2406,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Rice Street Health Center - Viking Drive West,91 Viking Drive West,Saint Paul,55117,(651) 489-1328,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Apple Valley Health Center,"15322 Galaxie Avenue, Suite 105",Apple Valley,55124,(952) 890-940,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Woodbury Health Center,"1795 Radio Drive, Suite D",Woodbury,55125,(651) 696-5550,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Eden Prairie Health Center,"582 Prairie Center Dr., Suite 215",Eden Prairie,55344,(952) 653-4499,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Minneapolis Health Center,1200 Lagoon Avenue,Minneapolis,55408,(612) 823-6300,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Richfield Health Center,6527 Lyndale Avenue South,Richfield,55423,(612) 874-1420,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Brooklyn Park Health Center,7532 Brooklyn Blvd.,Brooklyn Park,55443,(763) 560-3050,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Duluth Health Center,"1001 East Central Entrance, Suite 200",Duluth,55811,(218) 722-833,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Rochester Health Center,1212 7th St. NW,Rochester,55901,(507) 288-5186,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Mankato Health Center,"201 North Victory Drive, Suite 211, Belle Mar Mall",Mankato,56001,(507) 387-5581,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Willmar Health Center,"2320 E. Highway 12, Suite 6",Willmar,56201,(320) 235-9150,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,St. Cloud Health Center,"451 E. St. Germain St, Suite 100",Saint Cloud,56304,(320) 252-9504,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Alexandria Health Center,700 Cedar Street Suite 165 Suite 165,Alexandria,56308,(320) 762-766,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Moorhead Health Center,803 Belsly Boulevard,Moorhead,56560,(218) 236-7145,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,23,Bemidji Health Center,2504 Hannah Ave NW,Bemidji,56601,(218) 751-8683,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,26,Planned Parenthood West,1844 Broadwater #4,Billings,59102,(406) 656-9980,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,26,Planned Parenthood Great Falls,211 9th Street South,Great Falls,59405,(406) 454-3431,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,26,Planned Parenthood Helena,1500 Cannon,Helena,59601,(406) 443-7676,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,27,Northwest Health Center,3105 N. 93rd St,Omaha,68134,(877) 859-589,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,27,Lincoln South Health Center,5631 S. 48th Street Suite 100,Lincoln,68516,(877) 859-587,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,28,Las Vegas West Charleston,3220 W Charleston Blvd.,Las Vegas,89102,(702) 878-7776,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,28,Las Vegas East Flamingo,3300 E Flamingo Rd #25,Las Vegas,89121,(702) 547-9888,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,28,Fifth Street Health Center,455 W. 5th Street,Reno,89503,(775) 688-5555,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,29,Manchester Health Center,24 Pennacook Street,Manchester,03104,(603) 669-7321,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,29,Keene Health Center,8 Middle Street,Keene,03431,(603) 352-6898,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,East Orange Health Center,"560 Dr. Martin Luther King Blvd., Ste. 100",East Orange,07018,(973) 674-4343,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Montclair Center,29 N Fullerton Ave,Montclair,07042,(973) 746-7116,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Mulberry Health Center (formerly known as Chubb),240 Mulberry Street Floor 1,Newark,07102,(973) 622-3900,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Ironbound Health Center,"70 Adams St, Suite 13",Newark,07105,(973) 465-7707,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Elizabeth Health Center,1171 Elizabeth Avenue,Elizabeth,07201,(908) 351-5384,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Paterson Center,680 Broadway,Paterson,07514,(973) 345-3883,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Hackensack Health Center,575 Main Street,Hackensack,07601,(201) 489-1140,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Englewood Health Center,46 N Van Brunt Street,Englewood,07631,(201) 894-966,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Shrewsbury Center,69 East Newman Springs Road,Shrewsbury,07702,(732) 842-9300,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Newton Health Center,8 Moran Street,Newton,07860,(973) 383-5218,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Washington Health Center,66 East Washington Avenue,Washington,07882,(908) 454-3000,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Morristown Health Center,196 Speedwell Ave,Morristown,07960,(973) 539-1364,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Delran,"8008 Route 130N Building B, Suite 305",Delran,08075,(609) 788-3195,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Camden Center,317 Broadway,Camden,08103,(856) 365-3519,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Trenton Health Center,437 East State Street,Trenton,08608,(609) 599-4881,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Hamilton Health Center,2279 State Highway 33 Golden Crest Corporate Center - Suite 510,Hamilton Square,08690,(609) 788-3233,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Flemington Health Center,"349 Rt 31 South Countryside Plaza, Building B, Suite 503",Flemington,08822,(908) 782-7727,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,Perth Amboy Center,450 Market Street,Perth Amboy,08861,(732) 442-4499,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,30,New Brunswick Center,10B Industrial Drive,New Brunswick,08901,(732) 246-2411,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
 ,31,Southwestern Women’s Options,522 Lomas Boulevard NE,Albuquerque,87102,(505) 242-7512,"pill, clinic",https://southwesternwomens.com/southwestern-womens-options-albuquerque-new-mexico/,https://www.abortionfinder.org/
 ,31,UNM Center for Reproductive Health,"2301 Yale Boulevard SE, Buidling E",Albuquerque,87106,(505) 925-4455,"pill, clinic",https://unmhealth.org/services/family-planning/,https://www.abortionfinder.org/
 ,31,Planned Parenthood - San Mateo,701 San Mateo NE,Albuquerque,87108,(505) 265-9511,"pill, clinic",https://www.plannedparenthood.org/health-center/new-mexico/albuquerque/87108/san-mateo-2956-90210,https://www.plannedparenthood.org/abortion-access?
 ,31,Alamo Women's Clinic of Albuquerque,"10151 Montgomery Blvd NE, Building 3, Unit B",Albuquerque,87111,(800) 821-7237,"pill, clinic",https://alamowomensclinic.com/,https://www.abortionfinder.org/
+,31,Northeast Heights,9809 Candelaria Road NE,Albuquerque,87112,(505) 294-1577,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
 ,31,Planned Parenthood - Santa Fe,"730 St. Michael's Drive, Suite 4B",Santa Fe,87505,(505) 982-3684,pill,https://www.plannedparenthood.org/health-center/new-mexico/santa-fe/87505/santa-fe-2801-90210,https://www.plannedparenthood.org/abortion-access?
 ,31,Full Circle Health Center,210 West Las Cruces Avenue,Las Cruces,88005,(575) 222-8594,"pill, call for clinic guidance",https://fullcirclehealthcenter.com/,https://www.abortionfinder.org/
 ,31,Women's Reproductive Clinic of New Mexico,"5290 McNutt Road, Suite 103",Santa Teresa,88008,(575) 332-9452,pill,https://www.reproductiveservices.com/,https://www.abortionfinder.org/
+,31,Las Cruces Health Center,2525 S. Telshor Suite 15-200,Las Cruces,88011,(575) 386-5204,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
 ,31,Las Cruces Women’s Health Organization,2918 Hillrise Drive,Las Cruces,88011,(575) 888-4623,"pill, call for clinic guidance",https://lascruceswomenshealth.com/,https://www.abortionfinder.org/
+,32,Manhattan Health Center,26 Bleecker Street,New York,10012,(212) 965-7000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Staten Island Center,23 Hyatt Street,Staten Island,10301,(212) 965-7000,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,The Bronx Center,"349 E 149th Street, 2nd Floor (next to Citibank)",Bronx,10451,(212) 965-7000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Mount Vernon Center,"6 Gramatan Avenue, 4th Floor",Mount Vernon,10550,(914) 668-7927,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,White Plains Center,175 Tarrytown Road,White Plains,10607,(914) 761-6566,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Yonkers Center,20 S Broadway,Yonkers,10701,(914) 965-1912,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,New Rochelle Center,150 Lockwood Avenue Suite LL-1,New Rochelle,10801,(914) 632-4442,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Goshen Health Center,"7 Coates Drive, Suite 4",Goshen,10924,(845) 562-7800,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,QA Test Facility,25 Perlman Drive,Spring Valley,10977,(776) 789-8766,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Spring Valley Center,25 Perlman Drive,Spring Valley,10977,(845) 426-7577,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Diane L. Max Health Center,21-41 45th Road,Queens,11101,(212) 965-7000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Joan Malin Brooklyn Health Center,"44 Court Street, 4th Floor",Brooklyn,11201,(212) 965-7000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Hempstead Center,540 Fulton Ave,Hempstead,11550,(516) 750-2500,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Huntington Center,755 New York Ave,Huntington,11743,(631) 427-7154,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Patchogue Center,450 Waverly Ave Suite 4,Patchogue,11772,(631) 475-5705,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Smithtown Center,70 Maple Ave,Smithtown,11787,(631) 361-7526,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Riverhead Center,877 E Main Street - Suite 109 Suite 109,Riverhead,11901,(631) 369-230,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Amsterdam Center,4803 State Highway/30 KEM Plaza,Amsterdam,12010,(518) 842-285,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Cobleskill Center,109 Legion Drive,Cobleskill,12043,(518) 234-3325,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Clifton Park Center,1673 Route 9,Clifton Park,12065,(518) 383-1783,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Johnstown Center,400 North Perry Street,Johnstown,12095,(518) 736-1911,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Troy Health Center,120 Hoosick Street,Troy,12180,(518) 434-5678,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Albany Health Center,855 Central Ave.,Albany,12206,(518) 434-5678,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Schenectady Center,1040 State Street,Schenectady,12307,(518) 374-5353,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Kingston Health Center,21 Grand Street,Kingston,12401,(845) 562-7800,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Hudson Health Center,804 Columbia Street,Hudson,12534,(518) 828-4675,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Newburgh Health Center,"136 Lake Street, Suite11",Newburgh,12550,(845) 562-7800,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Poughkeepsie Health Center,17 Noxon Street,Poughkeepsie,12601,(845) 562-7800,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Queensbury Health Center,543 Bay Road,Queensbury,12804,(518) 792-994,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Saratoga Springs Center,236 Washington Street,Saratoga Springs,12866,(518) 584-41,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Plattsburgh Clinic,66 Brinkerhoff Street,Plattsburgh,12901,(518) 561-4430,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Malone Clinic,246 W. Main Street Suites 1 and 2,Malone,12953,(518) 483-7150,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Saranac Lake Clinic,41 St. Bernard St.,Saranac Lake,12983,(518) 891-46,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Syracuse Health Center,1120 E Genesee Street,Syracuse,13210,(866) 600-6886,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Lowville Center,7398 Turin Rd,Lowville,13367,(315) 804-6174,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Rome Center,"111 E. Chestnut Street, Ste. 205",Rome,13440,(315) 337-8584,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Utica Center,1424 Genesee Street,Utica,13502,(315) 724-6146,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Watertown Center,160 Stone Street,Watertown,13601,(315) 788-8065,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Canton Center,9 Miner Street,Canton,13617,(315) 386-8821,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Ogdensburg Center,419 Ford Street,Ogdensburg,13669,(315) 393-6544,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Batavia Health Center,222 W Main Street,Batavia,14020,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,North Tonawanda Health Center,15 Webster Street,North Tonawanda,14120,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Buffalo Health Center,60 East Amherst Street,Buffalo,14214,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,West Seneca Health Center,Wimbledon Plaza 240 Center Road,West Seneca,14224,(866) 600-6886,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Niagara Falls Office,750 Portage Road,Niagara Falls,14301,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Canandaigua Health Center,15 LaFayette Avenue,Canandaigua,14424,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Rochester Health Center,114 University Avenue,Rochester,14605,(866) 600-6886,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Brighton-Henrietta Health Center,2225 S Clinton,Brighton,14618,(866) 600-6886,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Corning Health Center,35 West William Street,Corning,14830,(607) 962-4686,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Ithaca Health Center,620 West Seneca Street,Ithaca,14850,(607) 273-1513,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,32,Elmira Health Center,755 E. Church Street,Elmira,14901,(607) 734-3313,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Winston-Salem Health Center,"3000 Maplewood Ave, Ste. 112",Winston-Salem,27103,(336) 768-2980,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Chapel Hill Health Center,1765 Dobbins Drive,Chapel Hill,27514,(919) 942-7762,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Charlotte Health Center,700 South Torrence Street,Charlotte,28204,(704) 536-7233,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Fayetteville Health Center,4551 Yadkin Rd,Fayetteville,28303,(866) 942-7762,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Wilmington Health Center,1925 Tradd Court,Wilmington,28401,(910) 762-5566,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,33,Asheville Health Center,68 McDowell St,Asheville,28801,(828) 252-7928,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,35,East Columbus Surgical Center,3255 East Main Street,Columbus,43213,(614) 222-3531,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,35,Bedford Heights Surgery Center,25350 Rockside Rd,Bedford Heights,44146,(440) 232-9732,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,35,Cincinnati Surgical Center,2314 Auburn Avenue,Cincinnati,45219,(513) 287-6488,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Beaverton Health Center,"12220 SW First St., Suite 200",Beaverton,97005,(888) 875-7820,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,NE Portland Health Center,3727 NE Martin Luther King Jr. Boulevard,Portland,97212,(888) 875-7820,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Hillman East Portland Center,14601 SE Division Street,Portland,97236,(888) 875-7820,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Milwaukie-Oak Grove Health Center,14411 SE McLoughlin Blvd,Milwaukie,97267,(888) 875-7820,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Salem Health Center,"3825 Wolverine St., NE",Salem,97305,(888) 875-7820,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,West Eugene Health Center,793 N. Danebo Avenue,Eugene,97402,(541) 344-9411,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Eugene-Springfield Health Center,3579 Franklin Blvd,Eugene,97403,(541) 344-9411,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,PPSO Telehealth Services,3579 Franklin Blvd,Eugene,97403,(541) 344-9411,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Medford Health Center,125 South Central Suite 201,Medford,97501,(541) 344-9411,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Grants Pass Health Center,160 NW Franklin Blvd.,Grants Pass,97526,(541) 344-9411,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,37,Bend Health Center,"2330 NE Division St., Suite 7",Bend,97703,(888) 875-7820,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Pittsburgh Abortion Services,933 Liberty Avenue,Pittsburgh,15222,(412) 562-1900,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Harrisburg Medical Center,1514 North 2nd Street,Harrisburg,17102,(717) 234-2468,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,York Medical Center,728 South Beaver St,York,17401,(717) 845-9681,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Allentown Medical Center,29 North Ninth Street,Allentown,18101,(610) 439-1033,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Wilkes-Barre Medical Center,101 N. Main Street,Wilkes-Barre,18701,(570) 824-8921,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Warminster Medical Center,610 Louis Drive Suite 303 - Second Floor,Warminster,18974,(215) 957-7980,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Bensalem Medical Center,Centre Plaza Shopping Center 2185 Galloway Road,Bensalem,19020,(215) 638-629,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Locust Street Surgical Center,1144 Locust Street,Philadelphia,19107,(215) 351-5550,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Far Northeast Surgical Center,2751 Comly Road,Philadelphia,19154,(215) 464-2225,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,West Chester Surgical Center,8 S Wayne Street,West Chester,19382,(610) 692-1770,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Norristown Abortion Center,1221 Powell Street,Norristown,19401,(610) 279-6095,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,38,Susie and John Stanley Health Center at Reading,1920 Kutztown Road Suite H,Reading,19604,(610) 376-8061,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,39,Providence Health Center,175 Broad Street,Providence,02903,(401) 421-9620,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,40,Columbia Health Center,2712 Middleburg Drive Suite 107 Admin 103,Columbia,29204,(803) 256-4908,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,40,Charleston Health Center,1312 Ashley River Road,Charleston,29407,(843) 628-4380,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,44,Metro Health Center,"160 South 1000 East, Suite 120",Salt Lake City,84102,(801) 257-6789,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,44,Salt Lake Health Center,654 South 900 East,Salt Lake City,84102,(801) 322-5571,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,44,Logan Health Center,550 N Main #117 Clock Tower Plaza,Logan,84321,(435) 753-724,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,45,White River Junction Health Center,79 South Main St,White River Junction,05001,(802) 281-6056,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,45,Burlington Health Center,173 Saint Paul Street,Burlington,05401,(802) 863-6326,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,45,Williston Health Center,75 Talcott Road Suite 10,Williston,05495,(802) 879-4800,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,45,Barre Health Center,90 Washington Street,Barre,05641,(802) 476-6696,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,45,Rutland Health Center,11 Burnham Avenue,Rutland,05701,(802) 775-2333,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,Charlottesville Health Center,2964 Hydraulic Road,Charlottesville,22901,(434) 296-1000,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,Hamilton Health Center,201 N Hamilton Street,Richmond,23221,(804) 355-4358,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,East End Health Center,1122 N 25th Street,Richmond,23223,(804) 508-6045,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,Virginia Beach Health Center,515 Newtown Road,Virginia Beach,23462,(757) 499-7526,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,Hampton Health Center,403 Yale Drive,Hampton,23666,(757) 826-2079,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,46,Roanoke Health Center,2207 Peters Creek Road,Roanoke,24017,(540) 562-3457,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Federal Way Health Center,1105 S 348th Street #B103,Federal Way,98003,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Eastside-Bellevue Health Center,14730 NE 8th St.,Bellevue,98007,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Lynnwood Health Center,19505 76th Ave W. 200,Lynnwood,98036,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,White Center Health Center,9942 8th Avenue SW,Seattle,98106,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Central District Health Center,2001 E Madison,Seattle,98122,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Northgate Health Center,1200 N. Northgate Way,Seattle,98133,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Everett Health Center,1509 32nd St.,Everett,98201,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Bellingham Health Center,1530 Ellis Street,Bellingham,98225,(360) 734-9095,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Marysville Health Center,10210 State Ave.,Marysville,98271,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Mount Vernon Health Center,1805 E Division Street,Mount Vernon,98274,(360) 848-1744,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Bremerton Health Center,"723 NE Riddell Road, Suite A",Bremerton,98310,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Port Angeles Health Center,426 East 8th Street,Port Angeles,98362,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Puyallup Health Center,702-30th Ave SW,Puyallup,98373,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Tacoma Health Center,1515 Martin Luther King Jr. Way,Tacoma,98405,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Olympia Health Center,"402 Legion Way, Suite 201",Olympia,98501,(800) 769-45,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Centralia Health Center,1020 W Main Street,Centralia,98531,(800) 769-45,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Vancouver Health Center,11516 SE Mill Plain Blvd Suite 2-E,Vancouver,98684,(888) 875-7820,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Yakima Health Center,1117 Tieton Dr.,Yakima,98902,(866) 904-7721,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Pullman Health Center,1525 SE King Drive,Pullman,99163,(866) 904-7721,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Spokane Valley Health Center,12104 E. Main Ave.,Spokane Valley,99206,(866) 904-7721,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Spokane Health Center,123 E. Indiana Ave. Bldg A,Spokane,99207,(866) 904-7721,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Kennewick Health Center,7426 W. Bonnie Pl.,Kennewick,99336,(866) 904-7721,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,47,Walla Walla Health Center,228 W Birch Street,Walla Walla,99362,(866) 904-7721,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,49,Sheboygan Health Center,909 South Taylor Drive,Sheboygan,53081,(844) 493-1052,pill,https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,49,Milwaukee- Water Street Health Center,435 S. Water Street,Milwaukee,53204,(844) 493-1052,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,49,Madison East,3706 Orin Road,Madison,53704,(844) 493-1052,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
+,51,Carol Whitehill Moses Center,1225 4th St. NE,Washington,20002,(202) 347-8512,"pill, clinic",https://www.plannedparenthood.org/abortion-access?,https://www.plannedparenthood.org/abortion-access?
